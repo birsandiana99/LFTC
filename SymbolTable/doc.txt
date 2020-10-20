@@ -1,0 +1,8 @@
+The implementation I chose was a HashTable.
+I have a mapping function named `hash` that assigns a numeric value (smaller than the capacity of the HashTable) to the given string.
+This value is computed as follows:
+    hash(my_string) = sum(my_string) % capacity + 1
+    where my_string is the given string, capacity is the initial capacity of the symboltable and sum(my_string)
+    represents the sum of all the ascii codes from the characters in the given string.
+Every key from the HashTable has assigned a SinglyLinkedList (SLL), so when conflict appears I just append the element
+to be the last element in the value's linked list for the conflictual key.
