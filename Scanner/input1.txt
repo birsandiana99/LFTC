@@ -1,0 +1,12 @@
+incepe_cursa
+bagi_intaia porsche;
+bagi_intaia dacia_logan;
+pornesti_motorul porsche;
+pornesti_motorul dacia_logan;
+continua_cat_timp dacia_logan nu este posche go
+daca_motor dacia_logan mai_multi_cai_putere_decat Porsche go
+dacia_logan este dacia_logan scade_cai_putere porsche;
+altfel_motor go
+porsche este porsche scade_cai_putere dacia_logan;
+pune_pe_afis -cmmdc este-, porsche;
+gata_cursa
