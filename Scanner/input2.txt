@@ -1,0 +1,17 @@
+incepe_cursa
+bagi_intaia porsche;
+bagi_intaia dacia;
+bagi_intaia bmw;
+pornesti_motorul porsche;
+pornesti_motorul dacia;
+pornesti_motorul bmw;
+
+bagi_intaia cea_mai_tare_masina;
+
+cea_mai_tare_masina este porsche;
+
+daca_motor dacia mai_multi_cai_putere_decat cea_mai_tare_masina go
+    cea_mai_tare_masina este dacia;
+daca_motor bmw mai_multi_cai_putere_decat cea_mai_tare_masina go
+    cea_mai_tare_masina este bmw;
+gata_cursa

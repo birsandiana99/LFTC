@@ -1,0 +1,130 @@
+Program Internal Form: 
+26|-1
+24|-1
+22|-1
+0|17
+23|-1
+24|-1
+22|-1
+0|3
+23|-1
+29|-1
+22|-1
+0|(17, 1)
+23|-1
+29|-1
+22|-1
+0|(3, 1)
+23|-1
+27|-1
+22|-1
+0|(3, 1)
+22|-1
+0|8
+22|-1
+6|-1
+22|-1
+0|3
+22|-1
+17|-1
+31|-1
+22|-1
+0|(3, 1)
+22|-1
+8|-1
+22|-1
+0|(17, 1)
+22|-1
+17|-1
+0|(3, 1)
+22|-1
+6|-1
+22|-1
+0|(3, 1)
+22|-1
+3|-1
+22|-1
+0|(17, 1)
+23|-1
+0|9
+22|-1
+17|-1
+0|(17, 1)
+22|-1
+6|-1
+22|-1
+0|(17, 1)
+22|-1
+3|-1
+22|-1
+0|(3, 1)
+23|-1
+28|-1
+22|-1
+1|12
+16|-1
+22|-1
+0|(17, 1)
+23|-1
+0|14
+
+
+Symbol Table: 
+At key1: 
+At key2: 
+At key3: dacia_logan -> posche
+At key4: 
+At key5: 
+At key6: 
+At key7: 
+At key8: nu
+At key9: altfel_motor
+At key10: 
+At key11: 
+At key12: -cmmdc este-
+At key13: 
+At key14: gata_curs
+At key15: 
+At key16: 
+At key17: porsche
+At key18: 
+At key19: 
+At key20: 
+
+
+
+
+Codification table: 
+identifier->0
+constant->1
+adauga_cai_putere->2
+scade_cai_putere->3
+inmulteste_cai_putere->4
+imparte_cai_putere->5
+este->6
+nu este->7
+mai_multi_cai_putere_decat->8
+mai_putini_cai_putere_decat->9
+mai_multi_sau_egali_cai_putere_decat->10
+mai_putini_sau_egali_cai_putere_decat->11
+&&->12
+||->13
+%->14
+/->15
+,->16
+go->17
+space->18
+{->19
+}->20
+-->21
+ ->22
+;->23
+bagi_intaia->24
+bagi_char->25
+incepe_cursa->26
+continua_cat_timp->27
+pune_pe_afis->28
+pornesti_motorul->29
+gata_cursa->30
+daca_motor->31
+altfel->32

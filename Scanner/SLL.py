@@ -40,11 +40,12 @@ class SLL:
 
 
     #print SLL
-    def print_sll(self):
+    def print_sll(self, file):
         curr = self.head
         while curr is not None:
             if curr.next is not None:
-                print( str(curr.val) + " -> ", end = "")
+                str_to_print = str(curr.val) + " -> "
+                file.write(str_to_print)
             else:
-                print(str(curr.val))
+                file.write(str(curr.val))
             curr = curr.next

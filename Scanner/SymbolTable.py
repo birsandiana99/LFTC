@@ -21,10 +21,14 @@ class HashTable:
 
     #insert value into HT
     def insert(self, key):
-        self.size += 1
-        index = self.hash(key)
-        self.dict[index].insert(key)
-        return index
+        if self.search(key)==0:
+            self.size += 1
+            # print("inserting", str(key), "at", self.hash(key))
+            index = self.hash(key)
+            self.dict[index].insert(key)
+            return index
+        else:
+            return self.search(key)
 
     #search for value in the HT
     def search(self, value):
@@ -35,8 +39,10 @@ class HashTable:
         return 0
 
     #print HT
-    def print_hash(self):
+    def print_hash(self,file):
         for key in self.dict.keys():
             if self.dict[key] is not None:
-                print("At key", str(key), ": ")
-                self.dict[key].print_sll()
+                str_to_print = "At key" + str(key) + ": "
+                file.write(str_to_print)
+                self.dict[key].print_sll(file)
+                file.write("\n")

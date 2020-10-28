@@ -1,0 +1,13 @@
+incepe_cursa
+bagi_intaia sum este 0;
+bagi_intaia vect{};
+bagi_intaia len;
+pornesti_motorul len;
+bagi_intaia i este -500;
+continua_cat_timp i mai_putini_cai_putere_decat len
+    pornesti_motorul vect{i};
+i este 0;
+continua_cat_timp i mai_putini_cai_putere_decat len
+    sum este sum aduna_caii_putere vect{i};
+pune_pe_afis -suma este-, sum;
+gata_cursa

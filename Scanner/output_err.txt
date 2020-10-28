@@ -1,0 +1,146 @@
+Unknown token 0b at line 2
+Unknown token -suma este, sum; at line 12
+Program Internal Form: 
+26|-1
+24|-1
+22|-1
+0|2
+22|-1
+6|-1
+22|-1
+24|-1
+22|-1
+0|15
+19|-1
+20|-1
+23|-1
+24|-1
+22|-1
+0|20
+23|-1
+29|-1
+22|-1
+0|11
+23|-1
+24|-1
+22|-1
+0|6
+22|-1
+6|-1
+22|-1
+1|9
+23|-1
+27|-1
+22|-1
+0|(6, 1)
+22|-1
+9|-1
+22|-1
+0|(20, 1)
+22|-1
+22|-1
+22|-1
+22|-1
+29|-1
+22|-1
+0|(15, 1)
+19|-1
+0|(6, 1)
+20|-1
+23|-1
+0|(6, 1)
+22|-1
+6|-1
+22|-1
+1|(9, 1)
+23|-1
+27|-1
+22|-1
+0|(6, 1)
+22|-1
+9|-1
+22|-1
+0|(20, 1)
+22|-1
+17|-1
+22|-1
+22|-1
+22|-1
+22|-1
+0|(2, 1)
+22|-1
+6|-1
+22|-1
+0|(2, 1)
+22|-1
+0|19
+22|-1
+0|(15, 1)
+19|-1
+0|(6, 1)
+20|-1
+23|-1
+28|-1
+22|-1
+0|14
+
+
+Symbol Table: 
+At key1: 
+At key2: sum
+At key3: 
+At key4: 
+At key5: 
+At key6: i
+At key7: 
+At key8: 
+At key9: 0
+At key10: 
+At key11: n
+At key12: 
+At key13: 
+At key14: gata_curs
+At key15: vect
+At key16: 
+At key17: 
+At key18: 
+At key19: aduna_caii_putere
+At key20: len
+
+
+
+
+Codification table: 
+identifier->0
+constant->1
+adauga_cai_putere->2
+scade_cai_putere->3
+inmulteste_cai_putere->4
+imparte_cai_putere->5
+este->6
+nu este->7
+mai_multi_cai_putere_decat->8
+mai_putini_cai_putere_decat->9
+mai_multi_sau_egali_cai_putere_decat->10
+mai_putini_sau_egali_cai_putere_decat->11
+&&->12
+||->13
+%->14
+/->15
+,->16
+go->17
+space->18
+{->19
+}->20
+-->21
+ ->22
+;->23
+bagi_intaia->24
+bagi_char->25
+incepe_cursa->26
+continua_cat_timp->27
+pune_pe_afis->28
+pornesti_motorul->29
+gata_cursa->30
+daca_motor->31
+altfel->32

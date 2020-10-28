@@ -4,7 +4,7 @@ operators = ["adauga_cai_putere", "scade_cai_putere", "inmulteste_cai_putere",
              "mai_putini_sau_egali_cai_putere_decat", "&&", "||", "%", "/"]
 
 
-separators = [",","go","space","{","}","-", " "]
+separators = [",","go","space","{","}","-", " ",";"]
 
 reserved_words =["bagi_intaia","bagi_char","incepe_cursa","continua_cat_timp","pune_pe_afis","pornesti_motorul",
                  "gata_cursa","daca_motor","altfel"]
@@ -19,4 +19,4 @@ for i in range (2,len(language)+2):
     codify[language[i-2]] = i
 
 
-print (codify)
+# print (codify)
