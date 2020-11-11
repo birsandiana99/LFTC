@@ -33,15 +33,11 @@ class FiniteAutomata:
         '''
         with open(fileName) as file:
             Q = FiniteAutomata.parseLine(file.readline())
-            # print("-----", Q)
             E = FiniteAutomata.parseLine(file.readline())
             q0 = file.readline().split('=')[1].strip()
             F = FiniteAutomata.parseLine(file.readline())
             #concatenate the rest of the elements from the file, transitions are the last in the file
             T = FiniteAutomata.parseTransitions(FiniteAutomata.parseLine(''.join([line for line in file])))
-
-            # self.dfa =
-            # print(T[1])
             return FiniteAutomata(Q, E, T[0], q0, F, T[1])
 
 
@@ -51,7 +47,6 @@ class FiniteAutomata:
         input: parts: a list of strings that represent the transitions
         output: result: a list of tuples containing ((state1, route),state2)
         '''
-        # print("Parts:",parts)
         result = []
         result2 = {}
         transitions = []
@@ -61,7 +56,6 @@ class FiniteAutomata:
         while index < len(parts):
             transitions.append(parts[index] + ',' + parts[index + 1])
             index += 2
-        # print("Transitions", transitions)
         #format the list of transitions: split by '->' and construst the left and right hand side
         for transition in transitions:
             lhs, rhs = transition.split('->')
@@ -71,7 +65,6 @@ class FiniteAutomata:
             if (state1, route ) in result2.keys():
                 dfa = False
             result2[(state1, route)] = state2
-            # print("0000",result2)
         return (result,dfa)
 
     def check_DFA(self, sequence):
@@ -82,12 +75,7 @@ class FiniteAutomata:
             if char not in self.E:
                 return False
             for trans in self.T:
-                # print("----",trans)
                 if curr == trans[0][0] and trans[0][1] == char:
-                    # print("00",trans[0][0])
-                    # print("01",trans[0][1])
-                    # print("1`",trans[1])
-
                     curr = trans[1]
                     break
         if curr not in self.F:
