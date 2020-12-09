@@ -1,0 +1,8 @@
+S A B C D
++ * ( ) a
+S
+S -> B A
+A -> + B A | ε
+B -> D C
+C -> * D C | ε
+D -> ( S ) | a

@@ -1,4 +1,0 @@
-S,A
-a,b,c
-S-> aSbS | aS | c
-A-> aAb | c
